@@ -1,1 +1,63 @@
-hello!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM SSCBS CHAPTER REGISTERATION FORM</title>
+</head>
+<body>
+    <img src="ACM-logo.png" alt="logo">
+    <h2>ACM SSCBS CHAPTER REGISTERATION FORM</h2>
+    <form action="/submit" method="POST"></form>
+         <h3>Personal Information</h3>
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Eg. saanvi.24541@sscbs.du.ac.in" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="E.g. +918459875918">
+
+            <label for="section">Your section</label>
+            <select id="section" name="section" required>
+                <option value="">Select your section</option>
+                <option value="1">BMS 1A</option>
+                <option value="2">BMS 1B</option>
+                <option value="3">BFIA 1A</option>
+                <option value="4">BFIA 1B</option>
+                <option value="5">BSC CS</option>
+            </select>
+
+       
+            <h3>Areas of Interest</h3>
+
+            <i>Please select your areas of interest:</i><br>
+            <input type="checkbox" id="ai" name="skills" value="AI">
+            <label for="ai/ml">AI/ML</label><br>
+            <input type="checkbox" id="cybersecurity" name="skills" value="Cybersecurity">
+            <label for="graphics">Graphic Designing</label><br>
+            <input type="checkbox" id="dataScience" name="skills" value="Data Science">
+            <label for="marketing">Marketing and PR</label><br><br>
+
+            <i>Skills (Select all that apply):</i><br>
+            <input type="checkbox" id="webDev" name="skills" value="Web Development">
+            <label for="webDev">Web Development</label><br>
+            <input type="checkbox" id="Backend" name="skills" value="Backend">
+            <label for="Backend">Backend</label><br>
+            <input type="checkbox" id="Content" name="skills" value="Content Writing">
+            <label for="Content">Content Writing</label><br>
+            
+
+            <h3>Additional Information</h3>
+
+            <label for="comments">Any additional comments or questions:</label><br>
+            <textarea id="comments" name="comments" rows="4" placeholder="Your comments..."></textarea><br>
+
+        <button type="submit">Submit</button>
+        
+    </form>
+
+</body>
+</html>
