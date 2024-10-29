@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #111; 
+    color: #e8e8e8; 
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #1a4f2e; 
+    color: #e8e8e8;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #aaa; 
+}
+
+/* Logo */
+.logo img {
+    height: 80px;
+    margin-left: 30px;
+    width: 200px;
+    margin-top: none;
+    margin-bottom: none;
+}
+
+/* Navigation Bar */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: #e8e8e8;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #81c784; 
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    display: flex; 
+
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px; 
+    outline: none; 
+    font-size: 16px; 
+    width: 350px;
+    height: 50px;
+}
+
+.search-bar button {
+    padding: 10px; 
+    border: none; 
+    border-radius: 0 5px 5px 0; 
+    background-color: #aaaaaa; 
+    color: #222; 
+    cursor: pointer; 
+    height: 50px;
+    width: 50px;
+    margin-right: 18px;
+    font-size:22px;
+    text-align: left;
+}
+
+.search-bar button:hover {
+    background-color: #FFC107; 
+}
+
+
+/* Main Content */
+main {
+    padding: 40px;
+    display: grid;
+    gap: 40px;
+}
+
+/* Section Headers */
+section h2 {
+    font-size: 2.2em;
+    color: #81c784;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    padding-bottom: 5px;
+}
+
+/* Introduction Section */
+#introduction {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #1a4f2e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#introduction img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* Profiles (Characters, Books, Creatures) */
+
+    
+.profile-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.profile-card {
+    background-color: #333;
+    color: #e8e8e8;
+    border: 2px solid #555;
+    padding: 15px;
+    width: calc(25% - 20px); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.7);
+}
+
+
+.profile-card img {
+    width: 100%;
+    max-width: 180px;
+    margin-top: 15px;
+    border: 2px solid #81c784;
+}
+
+/* Footer */
+footer {
+    background-color: #1a4f2e;
+    padding: 20px;
+    color: #e8e8e8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #555;
+}
+
+footer h3 {
+    font-size: 1.2em;
+    color: #81c784;
+}
+
+footer a {
+    color: #e8e8e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #81c784;
+}
+
+/* Social Media Links */
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.1em;
+    color: #e8e8e8;
+}
+
+.social-media a:hover {
+    color: #81c784;
+}
+#hogwarts{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #5D5D5D ;
+}
